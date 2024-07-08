@@ -1,7 +1,6 @@
 class commands {
 
     goHomePage() {
-        // Acessar a pagina
         cy.viewport(1080, 641)
         cy.visit('https://advantageonlineshopping.com')
         cy.get('a [id=hrefUserIcon]', { timeout: 10000 }).should('be.visible')        
@@ -15,6 +14,7 @@ class commands {
         cy.get('a[id=menuUserLink] [class*=hi-user]').should('be.visible')
         
     }
+    
     searchProdut(product) {
         cy.get('input[name=mobile_search', { timeout: 10000 }).should('be.visible')
         cy.get('input[name=mobile_search').type(`${product.name}`)

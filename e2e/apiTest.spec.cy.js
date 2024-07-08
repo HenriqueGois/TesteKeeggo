@@ -37,7 +37,6 @@ it('Validate POST product image upload', () => {
       url: url,
       headers: headers,
       body: formData,
-      timeout: 60000, // Ajuste o timeout conforme necessário
     }).then((response) => {
     });
   });

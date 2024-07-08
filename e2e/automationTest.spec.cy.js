@@ -15,6 +15,7 @@ describe('Teste Henrique Gois - QA', () => {
   it('Busca de produto inexistente', function () {
     commands.goHomePage()
     commands.searchProdut("asd")
+    // Valida se não foi encontrado nenhum produto
     cy.get('[class*="noProducts"]').should('be.visible')
   })
   it('Adiciona um produto ao carrinho ', function () {
