@@ -1,0 +1,13 @@
+{
+  "login": {
+    "user": "TesteGois",
+    "password": "Testegois123",
+    "name": "Teste Gois",
+    "cep": "06147-005",
+    "cel": "119666666"
+  },
+  "product": {
+    "name": "HP USB 3 BUTTON OPTICAL MOUSE",
+    "description": " Smooth and Accurate - The HP USB 3-Button Optical Mouse is the affordable desktop optical mouse solution that combines functionality with style "
+  }
+}
